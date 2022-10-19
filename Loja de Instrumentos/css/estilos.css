@@ -1,0 +1,57 @@
+.header {
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.header > img {
+  float: left
+}
+
+/* coloca o logo dentro do header */
+.header::after {
+  content: "";
+  clear: both;
+  display: table
+}
+
+.header > h1 {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+}
+
+.menu > li {
+  display: inline;
+  float: right;
+  text-align: center
+}
+
+.menu > li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
+
+.textoInicial {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* modifica os produtos */
+.container > article {
+  padding: 12px;
+  border: 1px solid #2196f3;
+
+}
+
